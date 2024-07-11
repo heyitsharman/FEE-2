@@ -1,0 +1,38 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    background-image: url("Chitkara_University_pic.jpg");
+    background-size: cover;
+}
+#border{
+    background-color: red;
+    height:6px;
+}
+div img{
+    float:right;
+    margin-right:0px;
+}
+#customerheight{
+    background-color: white;
+    height:550px;
+    width:285px;
+    float:right;
+    margin-top:60px;
+    position:relative;
+    border: solid #cccccc 2px;
+    padding:20px;
+}
+#customerheight div{
+    margin:20px 35px 10px 15px;
+}
+#customerheight form label{
+    font-size:20px;
+}
+#customerheight form input{
+    width:220px;
+    height:22px;
+}
+
+
