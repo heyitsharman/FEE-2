@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        nav{
+            background-color: #6E3832;
+        }
+        nav h1{
+            padding: 15px;
+            color: white;
+            text-align: start;
+            font-size: 2rem;
+        }
+        #images{
+            padding: 20px;
+            width: 77vw;
+            border-radius: 10px;
+            margin: 20px auto;
+            background-color: rgba(239, 226, 226);
+
+        }
+        section{
+            width: 80vw;
+            margin: 20px auto;
+            display: grid;
+            grid-auto-rows: 200px;
+            gap: 10px;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        }
+        .grid-item {
+            border: 1px solid #ddd;
+            text-align: center;
+            border-radius: 10px;
+        }
+        .grid-item img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+        .grid-item:hover{
+            background-color: rgba(128, 128, 128, 0.5);
+        }
+       
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>Photography Blog</h1>
+    </nav>
+    <div id="images">
+        <h2>Images</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, quaerat.</p>
+    </div>
+    <section>
+        <!-- <div class="grid-container"> -->
+            <div class="grid-item">
+                <img src="image1.jpeg">
+                <i class="fa-solid fa-camera" aria-hidden="true"></i>
+            </div>
+            <div class="grid-item">
+                <img src="image2.jpeg">
+                <i class="fa-solid fa-camera" aria-hidden="true"></i>
+            </div>
+            <div class="grid-item">
+                <img src="image3.jpeg">
+                <i class="fa-solid fa-camera" aria-hidden="true"></i>
+            </div>
+            <div class="grid-item">
+                <img src="image4.jpeg">
+                <i class="fa-solid fa-camera" aria-hidden="true"></i>
+            </div>
+            <div class="grid-item">
+                <img src="image5.jpeg">
+                <i class="fa-solid fa-camera" aria-hidden="true"></i>
+            </div>
+        <!-- </div> -->
+    </section>
+   
+</body>
+</html>
